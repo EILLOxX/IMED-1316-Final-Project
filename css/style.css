@@ -208,7 +208,7 @@ nav a{
 
 /* Inner frame containing the dark atmospheric background image */
 .hero-content {
-    background:url("images/herobackground.jpg") center/cover no-repeat;
+    background:url("../images/herobackground.jpg") center/cover no-repeat;
     border-radius: 8px;
     height: 100%;
     min-height: 330px;
