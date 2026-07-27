@@ -21,12 +21,12 @@ body {
 
 .pagecolormain{
 background-color: #1E1E1E;
-background-color: burlywood;
+
 height: auto;
 min-height: 1024px;
 max-width: 952px;
 width: 952px;
-padding: 70px 0px 0px;
+padding: 70px 0px 70px;
 padding-left: 20px;
 }
 
@@ -73,6 +73,20 @@ font-size: 56px;}
 
 
 
+.smallgothic {font-family: league-gothic, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+color: rgb(253, 255, 255);}
+
+.smallwriting{font-family: verveine, sans-serif;
+color: white;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;}
+
+
+
 
 
 
@@ -85,7 +99,7 @@ font-size: 56px;}
 }
 
 .sideprofile{ 
-    background-color: rgb(160, 30, 30);
+    background-color: rgb(0, 0, 0);
     height: 1024;
     width: 488px;
 max-height: 1024px;
@@ -176,12 +190,13 @@ nav a{
 
 /* Hero Content Card */
 
-.hero{
-    padding: 40px 4px 78px;
+.spacing{
+    padding-top: 80px;
 }
 
 .hero-card {
     margin: auto;
+    padding-top: 200px;
     padding:10px;
     width: 781px;
     height: 472px;
@@ -248,15 +263,14 @@ nav a{
 
 
 
+
 .carddisplaycontainer {
     
     flex-direction: column; /* Stacks the cards vertically */
     align-items: center;    /* Centers the cards horizontally */
-    gap: 10px;              /* Sets explicit spacing between the top and bottom card */
+    gap: 80px;              /* Sets explicit spacing between the top and bottom card */
     width: 100%;
-    padding: 2px;
-    border: #628281;
-    border: solid;
+    
 }
 
 
@@ -267,6 +281,126 @@ nav a{
 
 
 /* contact sections */
+
+.tabledesign{
+    padding-left: 20px;
+}
+
+table th, td{
+    border:3px solid #121212;
+    padding: 6px;
+    background-color: #1E1E1E;
+    
+}
+
+table caption{
+    color: #000000;
+font-family: league-gothic, sans-serif;
+font-size: 24px;
+
+}
+
+.flexcontainer {
+    display:-webkit-flex;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 50px;
+    
+}
+
+.flexitem {
+    gap:20px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.shadow{
+    box-shadow: 0px 6px 8px rgb(0, 0, 0);
+    border: 1px solid grey;
+    border-radius: 20px;
+  background-color: #121212;
+}
+
+.sendbuttion :hover{
+   background-color: #365956;
+    
+}
+
+.sendbuttion{
+    width: 51.63px;
+    height: 48.63;
+    
+}
+
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: solid #9CD9B6;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    color: #365956
+    
+}
+
+textarea {
+    color: #9CD9B6;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: #1E1E1E;
+    border:solid #9CD9B6;
+    border-radius: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: solid #9CD9B6;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    color: #365956;
+}
+
+
+
+.contactinfo {
+    padding: 20px;
+    margin-bottom: 20px;
+background-color: #9CD9B6;
+
+}
+
+.officehrs {
+    padding: 20px;
+    background-color: #9CD9B6;
+    color: #9CD9B6;
+
+
+
+}
+
+label{
+    color: #ffffff;
+   font-family: league-gothic, sans-serif;
+   font-size: 24px; 
+}
+
+
+
+
+
+
+
+
 
 
 
