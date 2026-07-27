@@ -1,7 +1,7 @@
 /* Reset defaults and set dark background */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     
 }
@@ -10,7 +10,6 @@ body {
     background-color: #000000; 
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     padding: 20px;
 
@@ -22,9 +21,13 @@ body {
 
 .pagecolormain{
 background-color: #1E1E1E;
-height: 1024px;
+background-color: burlywood;
+height: auto;
+min-height: 1024px;
+max-width: 952px;
 width: 952px;
 padding: 70px 0px 0px;
+padding-left: 20px;
 }
 
 .pagethemeone{
@@ -33,12 +36,14 @@ padding: 70px 0px 0px;
     height: 166px;
     border-top-left-radius: 67px;
     border-top-right-radius: 67px;
+    
 }
 
 .pagethemetwo{
     background-color: #D8F2F0;
     width: 908px;
-    height: 651px;
+    min-height: 651px;
+    height: auto;
 }
 
 
@@ -51,31 +56,6 @@ padding: 70px 0px 0px;
 }
 
 
-
-/* side profile card */
-.image {
-   border: solid 11px;
-     border-color: #BBD9BA;
-    border-radius: 14px;
-}
-
-.sideprofile{ 
-    background-color: black;
-    height: 1024;
-    width: 488px;
-}
-
-
-
-
-
-
-
-
-nav a:hover{
-    background-color: #365956;
-
-}
 /* My Text fonts from adobe */
 .gothic {font-family: league-gothic, sans-serif;
 font-weight: 400;
@@ -90,6 +70,43 @@ font-style: normal;
 font-size: 56px;}
 
 
+
+
+
+
+
+
+/* side profile card */
+.image {
+   border: solid 11px;
+     border-color: #BBD9BA;
+    border-radius: 14px;
+
+}
+
+.sideprofile{ 
+    background-color: rgb(160, 30, 30);
+    height: 1024;
+    width: 488px;
+max-height: 1024px;
+max-width: 488px;
+
+}
+
+
+
+
+
+
+
+
+nav a:hover{
+    background-color: #365956;
+
+}
+
+
+
 /* Main Container Frame */
 .portfolio-container {
     width: 100%;
@@ -100,6 +117,7 @@ font-size: 56px;}
     flex-direction: column;
     gap: 15px;
     margin: 0px 20px 0px;
+    padding: 30px 0px 0px;
 }
 
 /* Navbar Styling */
@@ -131,7 +149,7 @@ height: 118px;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 57px;
     font-size: 48px;
     letter-spacing: 1px;
 background-color: #1E1E1E;
@@ -157,12 +175,20 @@ nav a{
 
 
 /* Hero Content Card */
+
+.hero{
+    padding: 40px 4px 78px;
+}
+
 .hero-card {
+    margin: auto;
+    padding:10px;
+    width: 781px;
+    height: 472px;
     background-color: #c9e3e7; /* Light teal background */
     border: 3px solid #628281;
-    border-radius: 15px;
-    padding: 10px;
-    min-height: 350px;
+    border-radius: 14px;
+    min-height: 472px;
 }
 
 /* Inner frame containing the dark atmospheric background image */
@@ -182,19 +208,24 @@ nav a{
 
 /* Typography styles matching the image layout */
 .hero-content h1 {
-    font-size: 24px;
+    font-family: league-gothic, sans-serif;
+    font-size: 48px;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 .hero-content p {
-    font-size: 14px;
+    font-family: comic sans-serif;
+    font-size: 24px;
     max-width: 450px;
     line-height: 1.4;
     margin-bottom: 25px;
 }
 
 .quote-section {
+    font-family: comic sans-serif;
+    font-size: 24px;
+    font-weight: bold;
     margin-top: 10px;
 }
 
@@ -208,22 +239,62 @@ nav a{
     font-style: italic;
 }
 
+/* portfolio sections */
+
+
+
+
+
+
+
+
+.carddisplaycontainer {
+    
+    flex-direction: column; /* Stacks the cards vertically */
+    align-items: center;    /* Centers the cards horizontally */
+    gap: 10px;              /* Sets explicit spacing between the top and bottom card */
+    width: 100%;
+    padding: 2px;
+    border: #628281;
+    border: solid;
+}
+
+
+
+
+
+
+
+
+/* contact sections */
+
+
+
+
+
+
+
+
+
+
+
 /* Footer Styling */
 .footer-bar {
-    background-color: #1a262b;
-    border: 3px solid #628281;
-    border-radius: 15px;
-    padding: 12px 25px;
+    width: 860px;
+    height: 76.06;
+    background-color: #121212;
+    border-radius: 14px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 860px;
-    height: 76.06;
+    margin: 0px 20px 0px;
+    padding: 10px;
 }
 
 .footer-credits {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
-    font-size: 11px;
+    font-size: 19px;
     letter-spacing: 1px;
 }
 
