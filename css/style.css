@@ -454,6 +454,57 @@ label{
 
 
 
+/*extra info card acting as a pop up change but really its a new page */
+
+.info-card {
+    margin: auto;
+    padding-top: 200px;
+    padding:10px;
+    width: 781px;
+    height: 472px;
+    background-color: #c9e3e7; /* Light teal background */
+    border: 3px solid #628281;
+    border-radius: 14px;
+    min-height: 472px;
+}
+
+/* Inner frame containing the dark atmospheric background image */
+.info-content {
+    background:url("../images/herobackground.jpg") center/cover no-repeat;
+    border-radius: 8px;
+    height: 100%;
+    min-height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000; /* Dark text overlay */
+    padding: 30px;
+}
+
+/* Typography styles matching the image layout */
+.info-content h2 {
+    font-family: league-gothic, sans-serif;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.info-content p {
+    font-family: league-gothic, sans-serif;
+    font-size: 30px;
+    max-width: 450px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+}
+
+
+.info-content ul{
+    font-family: verveine, sans-serif;
+    font-size: 29px;
+}
+
 
 
 
@@ -491,6 +542,18 @@ label{
     font-size: 18px;
 }
 
-.paw-icon-small {
-    font-size: 16px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
