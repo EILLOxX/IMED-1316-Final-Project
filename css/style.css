@@ -15,7 +15,7 @@ body {
 
 }
 
-/* page theme setup important */
+/* page theme setup very important  */
 
 .pagecolormain{
 background-color: #1E1E1E;
@@ -250,7 +250,7 @@ nav a{
 
 
 
-/* portfolio sections and designs */
+/* portfolio sections and other designs */
 .card {
   width: 355px;
   height: 554px;
@@ -454,7 +454,7 @@ label{
 
 
 
-/*extra info card acting as a pop up change but really its a new page */
+/*extra info card list acting as a pop up change or hero text swap, but really its a new page unfortunatly */
 
 .info-card {
     margin: auto;
