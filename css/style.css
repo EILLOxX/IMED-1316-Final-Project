@@ -534,7 +534,7 @@ label{
 .footer-icons {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .footer-icons a {
