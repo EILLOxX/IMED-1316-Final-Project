@@ -1,5 +1,5 @@
-/* Reset defaults and set dark background */
-* {
+/* defaults and set dark background */
+ *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -15,16 +15,13 @@ body {
 
 }
 
-/* page theme setup */
-
-
+/* page theme setup important */
 
 .pagecolormain{
 background-color: #1E1E1E;
 
 height: auto;
 min-height: 1024px;
-max-width: 952px;
 width: 952px;
 padding: 70px 0px 70px;
 padding-left: 20px;
@@ -56,7 +53,7 @@ padding-left: 20px;
 }
 
 
-/* My Text fonts from adobe */
+/* My Text fonts from adobe and the diffrent use cases*/
 .gothic {font-family: league-gothic, sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -70,17 +67,14 @@ font-style: normal;
 font-size: 56px;}
 
 
-
-
-
 .smallgothic {font-family: league-gothic, sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 24px;
-color: rgb(253, 255, 255);}
+color: rgb(0, 0, 0);}
 
 .smallwriting{font-family: verveine, sans-serif;
-color: white;
+color: rgb(0, 0, 0);
 font-weight: 400;
 font-style: normal;
 font-size: 24px;}
@@ -254,25 +248,75 @@ nav a{
     font-style: italic;
 }
 
-/* portfolio sections */
 
 
-
-
-
-
-
-
-
-.carddisplaycontainer {
-    
-    flex-direction: column; /* Stacks the cards vertically */
-    align-items: center;    /* Centers the cards horizontally */
-    gap: 80px;              /* Sets explicit spacing between the top and bottom card */
-    width: 100%;
-    
+/* portfolio sections and designs */
+.card {
+  width: 355px;
+  height: 554px;
+  background-color: #BBD9BA;
+  border: 3px solid #365956;
+  border-radius: 20px;
+  box-shadow: 0 6px 8px #000000;
+  overflow: hidden; /* Keeps image corners rounded */
+  
 }
 
+/* Image styling */
+.card-image {
+  width: 100%;
+  height: 277px;
+  object-fit: cover;
+}
+
+/* Text area padding */
+.card-content {
+  padding: 30px;
+}
+
+.card-title {
+text-align: center;
+  margin: 0 0 8px 0;
+  font-family: league-gothic, sans-serif; 
+  font-size: 24px;
+  color:#000000
+  
+}
+
+.card-text {
+font-family: verveine, sans-serif;;
+  margin: 0 0 16px 0;
+  font-size: 24px;
+  color: #000000;
+
+}
+
+/* Button styling */
+.card-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1E1E1E;
+  color: #9CD9B6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card-btn:hover {
+  background-color: #365956;
+}
+
+
+
+.card-container {
+padding-top: 20px;
+padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px; /* Spacing between cards */
+  justify-content: center;
+}
 
 
 
@@ -283,7 +327,8 @@ nav a{
 /* contact sections */
 
 .tabledesign{
-    padding-left: 20px;
+    padding-left: 40px;
+    
 }
 
 table th, td{
@@ -291,6 +336,10 @@ table th, td{
     padding: 6px;
     background-color: #1E1E1E;
     
+    
+}
+table tr{
+    font-family: verveine, sans-serif;font-size: 20px;
 }
 
 table caption{
@@ -319,7 +368,7 @@ font-size: 24px;
 
 .shadow{
     box-shadow: 0px 6px 8px rgb(0, 0, 0);
-    border: 1px solid grey;
+    border: 2px solid #365956;
     border-radius: 20px;
   background-color: #121212;
 }
@@ -329,11 +378,10 @@ font-size: 24px;
     
 }
 
-.sendbuttion{
-    width: 51.63px;
-    height: 48.63;
-    
-}
+
+
+
+
 
 
 input {
@@ -344,7 +392,7 @@ input {
     border: solid #9CD9B6;
     background-color: #1E1E1E;
     border-radius: 10px;
-    color: #365956
+    color: #9CD9B6
     
 }
 
@@ -367,7 +415,7 @@ select {
     border: solid #9CD9B6;
     background-color: #1E1E1E;
     border-radius: 10px;
-    color: #365956;
+    color: #9CD9B6;
 }
 
 
